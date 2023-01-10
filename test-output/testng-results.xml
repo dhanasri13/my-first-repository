@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50338" started-at="2023-01-03T14:14:20Z" finished-at="2023-01-03T14:15:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50338" started-at="2023-01-03T14:14:20Z" finished-at="2023-01-03T14:15:11Z">
+      <class name="org.testNg.TestNgEx">
+        <test-method status="PASS" signature="sampletest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testNg.TestNgEx@6a400542]" name="sampletest" duration-ms="27102" started-at="2023-01-03T14:14:20Z" data-provider="datas" finished-at="2023-01-03T14:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vj_sri16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lavsri1102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletest -->
+        <test-method status="PASS" signature="sampletest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testNg.TestNgEx@6a400542]" name="sampletest" duration-ms="23151" started-at="2023-01-03T14:14:48Z" data-provider="datas" finished-at="2023-01-03T14:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletest -->
+      </class> <!-- org.testNg.TestNgEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
